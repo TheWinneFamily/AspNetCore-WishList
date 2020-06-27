@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WishList.Models
 {
-    class Item
+    public class Item
     {
         public int Id { get; set; }
 
