@@ -5,11 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\NewFolder\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <None Remove="Views\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Home\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\NewFolder\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
